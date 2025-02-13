@@ -1,0 +1,59 @@
+:root{
+  --main-color: #4BA87D;
+  --section-spacing: 100px;
+}
+
+
+body{
+  font-family: "Raleway", serif;
+  line-height: 1.5;   
+}
+
+a{
+  display: inline-block;
+  color: inherit;
+  &:hover{
+    opacity: 0.7;
+  }
+}
+
+
+
+
+.fs-60{
+  font-size: 60px;
+}
+
+
+
+.btn-mint{
+  background: #4BA87D;
+  color: azure;
+  font-size: 21px;
+}
+.btn-white{
+  background: azure;;
+  color: #4BA87D;
+  font-size: 21px;  
+}
+.title-font{
+  font-family: "Playfair Display", serif;
+}
+.fs-35{
+  font-size: 35px;
+}
+.fs-01{
+  font-size: 60px;
+}
+.fs-02{
+  font-size: 44px;
+}
+.fs-04{
+  font-size: 26px;
+}
+.fs-05{
+  font-size: 19px;
+} 
+.fs-06{
+  font-size: 17px;
+}  

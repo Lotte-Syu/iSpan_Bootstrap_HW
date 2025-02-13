@@ -1,0 +1,48 @@
+/* navbar */
+.logo{
+  width: 130px;
+}
+.logo-container{
+  position: relative;
+}
+.logo-text{
+  position: relative;
+  left: -30px;
+  top: 6px;
+  z-index: 5;
+}
+.menubar{
+  width: 60%;
+}
+@media screen and (max-width:992px) {
+  .logo-container > .fs-35{
+    font-size: 22px;
+  }
+  .logo-text{
+    left: -15px;
+    top: 3px;
+  }
+  .logo{
+    width: 85px;
+  }
+  
+  .menubar .fs-06,
+  .menubar .btn-mint{
+    font-size: 11px;
+  }
+}
+@media screen and (max-width:576px){
+  .menubar{
+    width: 40%;
+  }
+  .menubar ul{
+    flex-direction: row-reverse;
+  }
+  .menubar li{
+    display: none;
+    
+  }
+
+}
+
+
