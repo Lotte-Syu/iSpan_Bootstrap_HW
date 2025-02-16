@@ -3,7 +3,6 @@
   --section-spacing: 100px;
 }
 
-
 body{
   font-family: "Raleway", serif;
   line-height: 1.5;   
@@ -19,23 +18,32 @@ a{
 
 
 
-
-.fs-60{
-  font-size: 60px;
-}
-
-
-
 .btn-mint{
   background: #4BA87D;
-  color: azure;
+  color: #fff;
   font-size: 21px;
+  width: 200px;
+  height: 65px;
+  font-weight: 700;
 }
 .btn-white{
-  background: azure;;
+  background: #fff;
   color: #4BA87D;
-  font-size: 21px;  
+  font-size: 21px;
+  border: 1px solid #4BA87D;
+  width: 200px;
+  height: 65px;  
+  font-weight: 700;
 }
+@media screen and (max-width:992px) {
+  .btn-mint, 
+  .btn-white{
+    width: 130px;
+    height: auto;
+    font-size: 14px;
+  }
+}
+
 .title-font{
   font-family: "Playfair Display", serif;
 }
@@ -57,3 +65,7 @@ a{
 .fs-06{
   font-size: 17px;
 }  
+
+.fs-60{
+  font-size: 60px;
+}
